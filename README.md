@@ -121,10 +121,79 @@ int main (){
     int resto = num1%num2;
     printf ("Na divisao de %d por %d, o quociente e %d e o resto da divisao e %d",num1,num2,q,resto);
 }
+É O NUMERO 3? 
+#include <stdio.h>
 
+int main(){
+    int num;
+    scanf("%d",&num);
+    if(num==3){
+        printf("SIM");
+    }
+ return 0;   
+ }
+///////////////////////////////////////////
+MAIOR OU IGUAL A 16? 
+#include <stdio.h>
 
+int main(){
+    int num;
+    scanf("%d",&num);
+    
+    if(num>=16){
+        printf("SIM");
+    }
+    return 0;
+}
+////////////////////////////////////////////
+MULTIPLO DE 7? 
+#include <stdio.h>
 
+int main(){
+    int num;
+    scanf("%d",&num);
+    int mul = num%7;
+    
+    if(mul==0){
+        printf("SIM");
+    }
+    return 0;
+}
+///////////////////////////////////////////
+PAR ou IMPAR 
+#include <stdio.h>
 
+int main(){
+    int num;
+    scanf("%d",&num);
+    
+    if(num%2 == 0){
+        printf("PAR");
+    }
+    if(num%2 == 1){
+        printf("IMPAR");
+    return 0;
+}
+
+return 0;
+}
+///////////////////////////////////////////
+#include <stdio.h>
+
+int main(){
+    int num,num2;
+    scanf("%d %d",&num,&num2);
+ 
+    
+    if(num>num2 )  {
+        printf("%d",num);
+    }
+        else{
+            printf("%d",num2);
+     
+    }
+    return 0;
+}
 
 
 
